@@ -1,0 +1,2 @@
+SOURCE C:/Users/Administrateur/Desktop/projet_git_github/projet_3bis_msql_myproduction/contraintes_myproduction.sql;
+SOURCE C:/Users/Administrateur/Desktop/projet_git_github/projet_3bis_msql_myproduction/shema_myproduction.sql;
