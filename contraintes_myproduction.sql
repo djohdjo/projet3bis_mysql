@@ -105,7 +105,6 @@ ALTER TABLE staffs ADD UNIQUE(phone);
 
 ALTER TABLE orders MODIFY shipped_date DATE;
 
-
 --rajout clé étrangère
 ALTER TABLE orders ADD 
   CONSTRAINT fk_orders_customers1 FOREIGN KEY (customer_id) REFERENCES customers (customer_id) ON DELETE NO ACTION ON UPDATE CASCADE,
@@ -127,7 +126,6 @@ DROP FOREIGN KEY fk_orders_stores1;
 -- -----------------------------------------------------
 -- Table products
 -- -----------------------------------------------------
-
 
 --ALTER TABLE products;
 

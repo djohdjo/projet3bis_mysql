@@ -9,18 +9,6 @@ CREATE SCHEMA IF NOT EXISTS myproduction DEFAULT CHARACTER SET utf8mb4 COLLATE u
 USE myproduction ;
 
 
--- -----------------------------------------------------
--- Table brands
--- -----------------------------------------------------
-
-DROP TABLE IF EXISTS brands ;
-
-CREATE TABLE IF NOT EXISTS brands (
-  brand_id INT NOT NULL AUTO_INCREMENT,
-  brand_name VARCHAR(20) NOT NULL,
-  PRIMARY KEY (brand_id),
-);
-
 
 -- -----------------------------------------------------
 -- Table categories
@@ -33,6 +21,19 @@ CREATE TABLE IF NOT EXISTS categories (
   category_name VARCHAR(25) NOT NULL,
   PRIMARY KEY (category_id));
 
+
+
+-- -----------------------------------------------------
+-- Table brands
+-- -----------------------------------------------------
+
+DROP TABLE IF EXISTS brands ;
+
+CREATE TABLE IF NOT EXISTS brands (
+  brand_id INT NOT NULL AUTO_INCREMENT,
+  brand_name VARCHAR(20) NOT NULL,
+  PRIMARY KEY (brand_id),
+);
 
 
 -- -----------------------------------------------------
